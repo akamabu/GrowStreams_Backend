@@ -1,3 +1,4 @@
+/** Documents frontend/lib/cdn.ts module purpose, public surface, and usage context */
 // CDN and streaming service for Provn platform
 // Handles video delivery, caching, and HLS streaming
 
