@@ -1,3 +1,4 @@
+/** Numerical ticker with spring animation */
 "use client"
 
 import React, { useEffect, useRef, useState } from "react"
