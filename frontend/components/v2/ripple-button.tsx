@@ -1,3 +1,4 @@
+/** Button with material-style ripple effect */
 "use client"
 
 import React, { useState } from "react"
