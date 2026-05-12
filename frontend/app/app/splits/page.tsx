@@ -1,3 +1,4 @@
+/** Documents frontend/app/app/splits/page.tsx module purpose and usage context */
 'use client';
 
 import ComingSoon from '@/components/coming-soon';
