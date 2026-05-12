@@ -38,7 +38,7 @@ export async function awardXP(wallet, xpDelta, reason, contributionId = null) {
     [total, wallet]
   );
 
-  console.log(`[xp] Awarded ${xpDelta} XP (${reason}) to ${wallet}`);
+  console.info(`[xp] Awarded ${xpDelta} XP (${reason}) to ${wallet}`);
 
   // Award referral bonus to referrer (skip if this IS a referral bonus to avoid recursion)
   if (reason !== 'REFERRAL_BONUS' && xpDelta > 0) {
