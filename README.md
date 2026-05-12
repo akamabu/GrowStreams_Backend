@@ -188,6 +188,26 @@ curl -X POST https://growstreams-core-production.up.railway.app/api/grow-token/a
 # Sign this payload with the user's wallet and submit to Vara
 ```
 
+### Flow Rate Units
+
+GROW uses 12 decimals, so API amounts and stream rates are sent as raw integer units:
+
+```text
+1 GROW = 1,000,000,000,000 raw units
+raw flowRate = GROW per second × 1,000,000,000,000
+GROW per second = raw flowRate ÷ 1,000,000,000,000
+```
+
+Examples:
+
+```text
+0.001 GROW/s = 1,000,000,000 raw units per second
+0.01 GROW/s  = 10,000,000,000 raw units per second
+1 GROW/s     = 1,000,000,000,000 raw units per second
+```
+
+The frontend accepts human-readable GROW/sec values such as `0.001`. Direct API calls must send the raw integer string, for example `"flowRate":"1000000000"`.
+
 ### Example: Full Flow via API
 
 ```bash

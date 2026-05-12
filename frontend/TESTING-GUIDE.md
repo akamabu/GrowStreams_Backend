@@ -76,8 +76,8 @@ This is the main feature — streaming GROW tokens per-second to another address
 3. Token should default to **GROW Token**.
 4. Enter:
    - **Receiver Address**: Another Vara testnet address (can be your own second account, or any valid address like `kGkxsghNyASLV82VLsUe6PsqM3LzDfZ8zG885rTBKreVPjoUy`)
-   - **Flow Rate**: `0.001` (preset button available) — this streams 0.001 GROW per second
-   - **Initial Deposit**: `10` (preset button available) — this funds 10 GROW for the stream
+   - **Flow Rate**: `0.001` (preset button available) — this streams 0.001 GROW per second. Note: The API receives this as a raw integer `1000000000` (GROW has 12 decimals).
+   - **Initial Deposit**: `10` (preset button available) — this funds 10 GROW for the stream.
 5. The summary should show:
    - Stream duration: ~2h 46m
    - Daily outflow: 86.4 GROW/day
@@ -88,6 +88,25 @@ This is the main feature — streaming GROW tokens per-second to another address
 9. The stream should appear in the list with status **Active** and a real-time progress bar.
 
 **Expected result:** Active stream visible with real-time counter
+
+#### Flow Rate Conversion Reference
+
+Use this conversion when testing direct API calls or debugging wallet payloads:
+
+```text
+1 GROW = 1,000,000,000,000 raw units
+raw flowRate = GROW per second × 1,000,000,000,000
+```
+
+Common test values:
+
+```text
+0.001 GROW/s = 1,000,000,000 raw units per second
+0.01 GROW/s  = 10,000,000,000 raw units per second
+1 GROW/s     = 1,000,000,000,000 raw units per second
+```
+
+For example, the UI value `0.001` becomes the API payload value `"flowRate":"1000000000"`.
 
 ### Step 7 — Stream Actions
 
