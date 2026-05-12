@@ -33,6 +33,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
         }
       }
     } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
       console.warn('Failed to load cached profile:', err)
     }
   }, [identifier])
@@ -72,6 +73,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
           }))
           profileCache.set(identifier, { profile: data.profile, timestamp: Date.now() })
         } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
           console.warn('Failed to cache profile:', err)
         }
       } else {
@@ -88,6 +90,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
             }))
             profileCache.set(identifier, { profile: null, timestamp: Date.now() })
           } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
             console.warn('Failed to cache null profile:', err)
           }
         } else {
@@ -96,6 +99,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
         }
       }
     } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
       console.error('❌ useProfile: Network error:', err)
       setError('Failed to fetch profile')
     } finally {
@@ -124,6 +128,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
             profileCache.delete(identifier)
           }
         } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
           console.warn('Failed to clear profile cache:', err)
         }
         
@@ -140,6 +145,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
             profileCache.set(identifier, { profile: data.profile, timestamp: Date.now() })
           }
         } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
           console.warn('Failed to cache new profile:', err)
         }
         
@@ -151,6 +157,7 @@ export function useProfile(identifier?: string): UseProfileReturn {
         throw new Error(data.error || 'Failed to create profile')
       }
     } catch (err) {
+    console.error('[useProfile] Failed to fetch:', err);
       console.error('Error creating profile:', err)
       setError(err instanceof Error ? err.message : 'Failed to create profile')
       return false
