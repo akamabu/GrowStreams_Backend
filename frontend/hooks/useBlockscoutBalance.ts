@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useBlockscoutBalance.ts module purpose and usage context */
 import { useState, useCallback, useEffect } from 'react';
 
 interface BalanceResponse {
