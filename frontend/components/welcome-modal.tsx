@@ -1,3 +1,4 @@
+/** Documents frontend/components/welcome-modal.tsx module purpose and usage context */
 'use client';
 
 import { useState, useEffect } from 'react';
