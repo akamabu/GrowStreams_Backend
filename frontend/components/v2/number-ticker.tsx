@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/number-ticker.tsx module purpose and usage context */
 "use client"
 
 import React, { useEffect, useRef, useState } from "react"
