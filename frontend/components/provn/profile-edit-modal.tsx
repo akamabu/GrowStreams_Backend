@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/profile-edit-modal.tsx module purpose, public surface, and usage context */
 "use client";
 
 import React, { useState, useRef } from "react";
