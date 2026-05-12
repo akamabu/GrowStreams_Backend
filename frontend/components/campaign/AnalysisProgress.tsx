@@ -1,3 +1,4 @@
+/** Visualizes the AI analysis progress for a campaign */
 'use client';
 
 import { Loader2, CheckCircle2, XCircle, Code2, GitBranch, Sparkles, TrendingUp } from 'lucide-react';
