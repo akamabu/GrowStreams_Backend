@@ -1,3 +1,4 @@
+/** Video upload and analysis entry point */
 "use client";
 
 import React, { useState, useRef } from "react";
