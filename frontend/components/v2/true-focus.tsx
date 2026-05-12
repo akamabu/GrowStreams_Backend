@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/true-focus.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { useEffect, useRef, useState } from 'react';
