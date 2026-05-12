@@ -164,3 +164,7 @@ MVP launches with **USDC** on Vara. The architecture is token-agnostic — any f
 4. TokenVault holds all funds in escrow — no direct transfers between users
 5. Emergency pause halts all vault operations
 6. Permission delegations are explicit, scoped, and revocable
+
+
+---
+*Last updated: May 2026*
