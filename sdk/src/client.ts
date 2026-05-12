@@ -239,4 +239,35 @@ export class GrowStreams {
     updateScore: (params: { actorId: string; newScore: number; mode?: 'payload' }) =>
       this.post<TxResult | PayloadResult>('/api/identity/update-score', params as unknown as Record<string, unknown>),
   };
+
+  // ---- GrowToken ----
+
+  readonly growToken = {
+    meta: () => this.get<any>('/api/grow-token/meta'),
+    balance: (address: string) => this.get<{ balance: string }>(`/api/grow-token/balance/${address}`),
+    totalSupply: () => this.get<{ totalSupply: string }>('/api/grow-token/total-supply'),
+    faucet: (to: string) => this.post<any>('/api/grow-token/faucet', { to }),
+    faucetConfig: () => this.get<any>('/api/grow-token/faucet/config'),
+    transfer: (params: { to: string; amount: string; mode?: 'payload' }) =>
+      this.post<TxResult | PayloadResult>('/api/grow-token/transfer', params as unknown as Record<string, unknown>),
+    approve: (params: { spender: string; amount: string; mode?: 'payload' }) =>
+      this.post<TxResult | PayloadResult>('/api/grow-token/approve', params as unknown as Record<string, unknown>),
+  };
+
+  // ---- Leaderboard ----
+
+  readonly leaderboard = {
+    get: (page = 1, limit = 50, track?: string) => 
+      this.get<any>(`/api/leaderboard?page=${page}&limit=${limit}${track ? '&track=' + track : ''}`),
+    stats: () => this.get<any>('/api/leaderboard/stats'),
+    participant: (wallet: string) => this.get<any>(`/api/leaderboard/${wallet}`),
+    export: (track?: string) => this.get<string>(`/api/leaderboard/export${track ? '?track=' + track : ''}`),
+  };
+
+  // ---- Campaign ----
+
+  readonly campaign = {
+    config: () => this.get<any>('/api/campaign/config'),
+    status: () => this.get<any>('/api/campaign/status'),
+  };
 }
