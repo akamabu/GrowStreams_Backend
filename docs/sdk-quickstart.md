@@ -1,3 +1,4 @@
+<!-- Documents docs/sdk-quickstart.md module purpose and usage context -->
 # GrowStreams SDK — Quick Start Guide
 
 > **Status: SDK is under development. This document describes the target API.**
