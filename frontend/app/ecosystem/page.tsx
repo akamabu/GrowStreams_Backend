@@ -1,3 +1,4 @@
+/** Documents frontend/app/ecosystem/page.tsx module purpose and usage context */
 "use client"
 
 import React, { useState } from "react"
