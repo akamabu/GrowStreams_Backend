@@ -1,3 +1,4 @@
+/** Documents sdk/src/index.ts module purpose and usage context */
 export { GrowStreams } from './client.js';
 export type {
   GrowStreamsConfig,
