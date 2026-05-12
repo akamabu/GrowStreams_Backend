@@ -1,3 +1,4 @@
+/** Documents api/src/routes/bounty.mjs module purpose and usage context */
 import { Router } from 'express';
 import { query, command, encodePayload } from '../sails-client.mjs';
 
