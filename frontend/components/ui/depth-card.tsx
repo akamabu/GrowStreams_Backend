@@ -1,3 +1,4 @@
+/** Documents frontend/components/ui/depth-card.tsx module purpose, public surface, and usage context */
 "use client";
 
 import { useRef, useState, useCallback, useEffect } from "react";
