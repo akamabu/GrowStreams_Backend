@@ -1,3 +1,4 @@
+/** Highlights the rewards and prize pool for current campaign */
 'use client';
 
 import { Trophy, Award, Gift, Coins } from 'lucide-react';
