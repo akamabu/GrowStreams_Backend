@@ -1,3 +1,4 @@
+/** Text with animated gradient overlay */
 "use client"
 
 import React from "react"
