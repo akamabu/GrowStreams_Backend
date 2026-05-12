@@ -1,3 +1,4 @@
+<!-- Documents frontend/TESTING-GUIDE.md module purpose, public surface, and usage context -->
 # GrowStreams Frontend Testing Guide
 
 ## Prerequisites
