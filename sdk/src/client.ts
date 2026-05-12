@@ -59,6 +59,10 @@ export class GrowStreams {
 
   // ---- Health ----
 
+  getVaultConfig() {
+    return this.get<any>('/api/vault/config');
+  }
+
   health() {
     return this.get<HealthResponse>('/health');
   }
