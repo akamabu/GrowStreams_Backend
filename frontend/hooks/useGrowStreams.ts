@@ -1,3 +1,6 @@
+/**
+ * Auto-generated documentation for the hook
+ */
 'use client';
 
 import { useState, useCallback } from 'react';
