@@ -1,3 +1,4 @@
+/** Documents frontend/app/dashboard/page.tsx module purpose and usage context */
 "use client"
 
 import { useState, useEffect } from "react"
