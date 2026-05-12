@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useVaraNFT.ts module purpose and usage context */
 'use client';
 
 import { useProgram, useSendProgramTransaction } from '@gear-js/react-hooks';
