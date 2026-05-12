@@ -1,3 +1,4 @@
+/** Documents api/src/cron/index.mjs module purpose and usage context */
 import cron from 'node-cron';
 import { runDailyXP } from './daily-xp.mjs';
 import { runSnapshot } from './leaderboard-snapshot.mjs';
