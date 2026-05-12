@@ -1,3 +1,4 @@
+/** Transition effect using moving gradient blinds */
 "use client"
 
 import { useEffect, useRef } from 'react';
