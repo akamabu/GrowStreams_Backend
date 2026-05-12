@@ -1,3 +1,4 @@
+/** Documents frontend/components/ui/shader-card.tsx module purpose and usage context */
 "use client";
 
 import { useEffect, useRef } from "react";
