@@ -1,3 +1,4 @@
+/** Documents api/src/services/llm-scorer.mjs module purpose, public surface, and usage context */
 import OpenAI from 'openai';
 
 let client = null;
