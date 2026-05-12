@@ -102,3 +102,5 @@ export interface GrowStreamsConfig {
   baseUrl: string;
   timeout?: number;
 }
+
+export type StreamStatus = 'active' | 'paused' | 'stopped' | 'liquidated';
