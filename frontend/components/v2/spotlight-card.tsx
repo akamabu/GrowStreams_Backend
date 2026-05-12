@@ -1,3 +1,4 @@
+/** Card with interactive spotlight hover effect */
 "use client"
 
 import React, { useRef, useState } from "react"
