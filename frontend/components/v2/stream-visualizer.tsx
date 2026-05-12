@@ -1,3 +1,4 @@
+/** Real-time animation for stream flow visualization */
 "use client"
 
 import { motion } from "framer-motion"
