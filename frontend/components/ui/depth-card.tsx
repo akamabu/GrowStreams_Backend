@@ -1,3 +1,4 @@
+/** Card component with 3D depth effect */
 "use client";
 
 import { useRef, useState, useCallback, useEffect } from "react";
