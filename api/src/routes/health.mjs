@@ -22,6 +22,7 @@ router.get('/', async (req, res) => {
     balance,
     contracts: getProgramIds(),
     uptime: process.uptime(),
+    version: '2.0.0',
     timestamp: new Date().toISOString(),
   });
 });
