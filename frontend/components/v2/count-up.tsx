@@ -1,3 +1,4 @@
+/** Animates numbers from zero to target value */
 "use client"
 
 import React, { useEffect, useRef, useState } from "react"
