@@ -1,3 +1,4 @@
+<!-- Documents DEPLOYMENT_GUIDE.md module purpose, public surface, and usage context -->
 # Native VARA Deployment Guide
 
 This guide covers building, deploying, and wiring the modified TokenVault and StreamCore contracts with native VARA support.
