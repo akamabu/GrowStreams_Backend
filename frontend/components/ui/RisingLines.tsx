@@ -1,3 +1,4 @@
+/** Documents frontend/components/ui/RisingLines.tsx module purpose, public surface, and usage context */
 'use client';
 
 import React, { useEffect, useRef } from 'react';
