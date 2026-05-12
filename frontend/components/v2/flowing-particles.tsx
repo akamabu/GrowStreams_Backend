@@ -1,3 +1,4 @@
+/** Interactive background particle simulation */
 "use client"
 
 import { useEffect, useRef, useCallback } from "react"
