@@ -90,6 +90,7 @@ See [TESTING-GUIDE.md](frontend/TESTING-GUIDE.md) for detailed step-by-step inst
 
 | Endpoint | Method | Description |
 |---|---|---|
+| `/health` | GET | API health, network connection, and system stats |
 | `/api/grow-token/meta` | GET | Token name, symbol, decimals, supply, admin |
 | `/api/grow-token/balance/:account` | GET | GROW balance for an address |
 | `/api/grow-token/allowance/:owner/:spender` | GET | Token allowance |
