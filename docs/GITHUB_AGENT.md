@@ -1,3 +1,4 @@
+<!-- Documents docs/GITHUB_AGENT.md module purpose and usage context -->
 # GitHub Agent - Automated PR Scoring System
 
 ## Overview
