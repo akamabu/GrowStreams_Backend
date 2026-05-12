@@ -1,3 +1,4 @@
+<!-- Documents user_flow.md module purpose, public surface, and usage context -->
 Here's the complete user flow from wallet connect to money received, mapped to the actual API endpoints on your live deployment:
 
 ---
