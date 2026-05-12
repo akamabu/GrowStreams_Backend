@@ -1,3 +1,4 @@
+/** Card with WebGL shader background */
 "use client";
 
 import { useEffect, useRef } from "react";
