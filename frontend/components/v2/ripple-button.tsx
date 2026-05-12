@@ -1,3 +1,4 @@
+/** Interactive button with material ripple feedback */
 "use client"
 
 import React, { useState } from "react"
