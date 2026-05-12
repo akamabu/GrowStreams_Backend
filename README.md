@@ -82,6 +82,13 @@ See [TESTING-GUIDE.md](frontend/TESTING-GUIDE.md) for detailed step-by-step inst
 
 ---
 
+## 📚 Table of Contents
+
+- [Features](#-features)
+- [How It Works](#-how-it-works)
+- [REST API](#-rest-api)
+- [Deployment](#-deployment)
+
 ## REST API
 
 **Base URL:** `https://growstreams-core-production.up.railway.app`
