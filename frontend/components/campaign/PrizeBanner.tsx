@@ -1,3 +1,4 @@
+/** Documents frontend/components/campaign/PrizeBanner.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { Trophy, Award, Gift, Coins } from 'lucide-react';
