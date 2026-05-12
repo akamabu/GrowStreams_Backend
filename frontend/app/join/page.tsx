@@ -1,3 +1,4 @@
+/** Documents frontend/app/join/page.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { useEffect } from 'react';
