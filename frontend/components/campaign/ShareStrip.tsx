@@ -1,3 +1,4 @@
+/** Documents frontend/components/campaign/ShareStrip.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { useState } from 'react';
