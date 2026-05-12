@@ -116,7 +116,12 @@ router.post('/transfer', async (req, res, next) => {
 router.post('/approve', async (req, res, next) => {
   try {
     const { spender, amount, mode } = req.body;
-    if (!spender || !amount) return res.status(400).json({ error: 'Missing: spender, amount' });
+    if (!spender || !amount) {
+      return res.status(400).json({ error: 'Missing: spender, amount' });
+    }
+    if (!isValidBigInt(amount)) {
+      return res.status(400).json({ error: 'Invalid numeric value for amount' });
+    } return res.status(400).json({ error: 'Missing: spender, amount' });
     if (mode === 'payload') {
       return res.json({ payload: encodePayload(C, 'Approve', spender, BigInt(amount)) });
     }
