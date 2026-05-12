@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/create-profile-modal.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { useState, useEffect, useRef } from "react"
