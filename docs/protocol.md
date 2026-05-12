@@ -1,3 +1,4 @@
+<!-- Documents docs/protocol.md module purpose and usage context -->
 # GrowStreams V2 — Protocol Specification
 
 ## Overview
