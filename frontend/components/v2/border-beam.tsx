@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/border-beam.tsx module purpose, public surface, and usage context */
 "use client"
 
 import React from "react"
