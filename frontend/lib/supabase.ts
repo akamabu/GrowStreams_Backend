@@ -1,3 +1,4 @@
+/** Documents frontend/lib/supabase.ts module purpose and usage context */
 import { createClient as createSupabaseClient } from '@supabase/supabase-js'
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
