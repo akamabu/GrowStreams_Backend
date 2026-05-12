@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useVideoInteractions.ts module purpose and usage context */
 import { useState } from 'react'
 import { useAuth } from '@campnetwork/origin/react'
 
