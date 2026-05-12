@@ -1,3 +1,4 @@
+/** Documents scripts/deploy-js/transfer.mjs module purpose, public surface, and usage context */
 import { GearApi, GearKeyring } from '@gear-js/api';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
