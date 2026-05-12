@@ -1,3 +1,4 @@
+/** Numerical ticker for live data updates */
 "use client"
 
 import React, { useEffect, useRef, useState } from "react"
