@@ -21,7 +21,10 @@ router.get('/', async (req, res) => {
     account: keyring ? keyring.address : null,
     balance,
     contracts: getProgramIds(),
-    uptime: process.uptime(),
+    network: api ? api.runtimeChain.toString() : null,
+    uptime: Math.floor(process.uptime()),
+    memory: process.memoryUsage(),
+    node: process.version,
     timestamp: new Date().toISOString(),
   });
 });
