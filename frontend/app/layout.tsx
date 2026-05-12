@@ -1,3 +1,4 @@
+/** Documents frontend/app/layout.tsx module purpose, public surface, and usage context */
 import type { Metadata } from "next"
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google"
 import Script from "next/script"
