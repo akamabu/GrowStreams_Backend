@@ -1,3 +1,4 @@
+/** Standard number ticker component */
 "use client"
 
 import React, { useEffect, useRef, useState } from "react"
