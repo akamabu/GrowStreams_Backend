@@ -1,3 +1,4 @@
+<!-- Documents GITHUB_DESCRIPTION.md module purpose, public surface, and usage context -->
 # 🌊 GrowStreams Backend
 
 **Real-time money streaming protocol on Vara Network with AI-powered contribution rewards**
