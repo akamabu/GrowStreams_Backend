@@ -103,6 +103,7 @@ router.put('/:id', async (req, res, next) => {
     const id = BigInt(req.params.id);
     const { flowRate, mode } = req.body;
     if (!flowRate) return res.status(400).json({ error: 'Missing: flowRate' });
+    if (!isValidBigInt(flowRate)) return res.status(400).json({ error: 'Invalid numeric value for flowRate' });
     if (mode === 'payload') {
       const payload = encodePayload(C, 'UpdateStream', id, BigInt(flowRate));
       return res.json({ payload });
