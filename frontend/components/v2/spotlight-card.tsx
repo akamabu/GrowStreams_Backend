@@ -1,3 +1,4 @@
+/** Card with mouse-following hover effect */
 "use client"
 
 import React, { useRef, useState } from "react"
