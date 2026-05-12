@@ -1,3 +1,4 @@
+/** Social sharing buttons for campaign promotion */
 'use client';
 
 import { useState } from 'react';
