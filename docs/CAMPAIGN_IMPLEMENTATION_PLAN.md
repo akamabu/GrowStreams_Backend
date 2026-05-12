@@ -1,3 +1,4 @@
+<!-- Documents docs/CAMPAIGN_IMPLEMENTATION_PLAN.md module purpose and usage context -->
 # GrowStreams 21-Day Launch Campaign — Architecture Analysis & Implementation Plan
 
 ---
