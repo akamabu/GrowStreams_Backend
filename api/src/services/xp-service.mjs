@@ -9,6 +9,7 @@ const REFERRAL_BONUS_PCT = 0.05; // 5% referral bonus
  * One-time reasons are idempotent per (reason, contribution_id).
  */
 export async function awardXP(wallet, xpDelta, reason, contributionId = null) {
+  xpDelta = Math.max(0, parseInt(xpDelta) || 0);
   if (ONE_TIME_REASONS.includes(reason) && contributionId) {
     const existing = await queryOne(
       `SELECT id FROM xp_events WHERE wallet = $1 AND reason = $2 AND contribution_id = $3 LIMIT 1`,
