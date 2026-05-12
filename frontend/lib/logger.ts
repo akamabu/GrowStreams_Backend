@@ -1,3 +1,4 @@
+/** Documents frontend/lib/logger.ts module purpose, public surface, and usage context */
 type LogLevel = 'ERROR' | 'WARN' | 'INFO' | 'DEBUG'
 
 const LOG_LEVELS: Record<LogLevel, number> = {
