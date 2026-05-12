@@ -3,6 +3,11 @@ import { query, command, encodePayload } from '../sails-client.mjs';
 
 const router = Router();
 const C = 'tokenVault';
+function isValidBigInt(v) {
+  if (v == null || v === '') return false;
+  try { BigInt(v); return true; } catch { return false; }
+}
+
 
 function toBigIntStr(v) {
   if (v == null) return '0';
@@ -133,6 +138,7 @@ router.post('/deposit-native', async (req, res, next) => {
   try {
     const { amount, mode } = req.body;
     if (!amount) return res.status(400).json({ error: 'Missing: amount' });
+    if (!isValidBigInt(amount)) return res.status(400).json({ error: 'Invalid numeric value for amount' });
     if (mode === 'payload') {
       return res.json({ payload: encodePayload(C, 'DepositNative'), value: amount });
     }
@@ -145,6 +151,7 @@ router.post('/withdraw-native', async (req, res, next) => {
   try {
     const { amount, mode } = req.body;
     if (!amount) return res.status(400).json({ error: 'Missing: amount' });
+    if (!isValidBigInt(amount)) return res.status(400).json({ error: 'Invalid numeric value for amount' });
     if (mode === 'payload') {
       return res.json({ payload: encodePayload(C, 'WithdrawNative', BigInt(amount)) });
     }
