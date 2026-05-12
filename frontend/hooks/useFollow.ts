@@ -1,3 +1,6 @@
+/**
+ * Auto-generated documentation for the hook
+ */
 import { useState, useEffect, useCallback } from 'react'
 import { useAuth } from '@campnetwork/origin/react'
 import { toast } from 'sonner'
