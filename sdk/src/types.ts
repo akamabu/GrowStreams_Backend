@@ -1,3 +1,4 @@
+/** Documents sdk/src/types.ts module purpose, public surface, and usage context */
 export interface HealthResponse {
   status: 'healthy' | 'degraded';
   network: string | null;
