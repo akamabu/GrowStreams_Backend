@@ -1,7 +1,7 @@
 import { query, queryOne, queryAll } from './db.mjs';
 
 const ONE_TIME_REASONS = ['INITIAL_AWARD', 'MERGE_BONUS', 'VIRAL_BONUS', 'RESHARE_BONUS'];
-const REFERRAL_BONUS_PCT = 0.05; // 5% referral bonus
+const REFERRAL_BONUS_PCT = Math.min(1, Math.max(0, 0.05)); // 5% referral bonus
 
 /**
  * Award XP to a participant.
