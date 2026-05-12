@@ -1,3 +1,6 @@
+/**
+ * Auto-generated documentation for the hook
+ */
 import { useState, useEffect, useCallback } from 'react'
 import { Profile } from '@/lib/supabase'
 
