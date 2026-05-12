@@ -1,3 +1,4 @@
+/** Toast notification system wrapper */
 "use client"
 
 import { Toaster as Sonner, ToasterProps } from "sonner"
