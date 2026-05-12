@@ -1,3 +1,4 @@
+/** Documents frontend/tailwind.config.ts module purpose and usage context */
 import type { Config } from "tailwindcss"
 
 const config: Config = {
