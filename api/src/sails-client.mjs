@@ -1,3 +1,4 @@
+/** Documents api/src/sails-client.mjs module purpose and usage context */
 import { Sails } from 'sails-js';
 import { SailsIdlParser } from 'sails-js-parser';
 import { GearApi, GearKeyring } from '@gear-js/api';
