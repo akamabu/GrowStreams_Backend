@@ -1,3 +1,4 @@
+/** Documents frontend/lib/growstreams-api.ts module purpose, public surface, and usage context */
 const API_BASE = process.env.NEXT_PUBLIC_GROWSTREAMS_API || 'https://growstreams-core-production.up.railway.app';
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
