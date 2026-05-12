@@ -1,3 +1,4 @@
+/** Decoding/scramble animation effect for text content */
 "use client"
 
 import React, { useEffect, useState, useRef } from "react"
