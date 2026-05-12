@@ -1,3 +1,6 @@
+/**
+ * Auto-generated documentation for the hook
+ */
 import { useState } from 'react'
 import { useAuth } from '@campnetwork/origin/react'
 
