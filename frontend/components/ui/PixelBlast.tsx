@@ -1,3 +1,4 @@
+/** Documents frontend/components/ui/PixelBlast.tsx module purpose, public surface, and usage context */
 "use client";
 
 import { useEffect, useRef } from 'react';
