@@ -1,3 +1,6 @@
+/**
+ * Auto-generated documentation for the hook
+ */
 import { useState, useCallback, useEffect } from 'react';
 
 interface BalanceResponse {
