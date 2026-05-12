@@ -1,3 +1,4 @@
+/** GitHub repository analysis helpers */
 /**
  * GrowStreams GitHub AI On-Chain Engine
  * Phase 2: Enhanced Web3 Scoring System
