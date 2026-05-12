@@ -23,6 +23,26 @@ router.get('/', async (req, res, next) => {
 });
 
 // ---------------------------------------------------------------------------
+// GET /api/leaderboard/export (CSV)
+// ---------------------------------------------------------------------------
+router.get('/export', async (req, res, next) => {
+  try {
+    const track = req.query.track || null;
+    const result = await getLeaderboard(1, 1000, track);
+    const data = result.participants;
+
+    let csv = 'Rank,Wallet,Display Name,XP,Track\n';
+    data.forEach(p => {
+      csv += `${p.rank},${p.wallet},"${p.displayName || ''}",${p.totalXP},${p.track}\n`;
+    });
+
+    res.setHeader('Content-Type', 'text/csv');
+    res.setHeader('Content-Disposition', 'attachment; filename=leaderboard.csv');
+    res.send(csv);
+  } catch (err) { next(err); }
+});
+
+// ---------------------------------------------------------------------------
 // GET /api/leaderboard/stats  (MUST be before /:wallet)
 // ---------------------------------------------------------------------------
 router.get('/stats', async (req, res, next) => {
