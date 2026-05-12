@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/ripple-button.tsx module purpose and usage context */
 "use client"
 
 import React, { useState } from "react"
