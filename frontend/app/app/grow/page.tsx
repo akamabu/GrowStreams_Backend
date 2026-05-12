@@ -1,3 +1,4 @@
+/** Documents frontend/app/app/grow/page.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { useEffect, useState, useCallback } from 'react';
