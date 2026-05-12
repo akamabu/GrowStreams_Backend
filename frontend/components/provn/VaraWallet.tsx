@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/VaraWallet.tsx module purpose and usage context */
 'use client';
 
 import { Wallet } from '@gear-js/wallet-connect';
