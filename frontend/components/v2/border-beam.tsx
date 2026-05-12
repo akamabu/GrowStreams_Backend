@@ -1,3 +1,4 @@
+/** Animated light beam following component borders */
 "use client"
 
 import React from "react"
