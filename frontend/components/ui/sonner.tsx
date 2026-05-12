@@ -1,3 +1,4 @@
+/** Documents frontend/components/ui/sonner.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { Toaster as Sonner, ToasterProps } from "sonner"
