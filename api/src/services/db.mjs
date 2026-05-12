@@ -1,3 +1,4 @@
+/** Documents api/src/services/db.mjs module purpose, public surface, and usage context */
 import pg from 'pg';
 const { Pool } = pg;
 
