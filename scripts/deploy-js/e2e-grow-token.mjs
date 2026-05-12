@@ -1,3 +1,4 @@
+/** Documents scripts/deploy-js/e2e-grow-token.mjs module purpose, public surface, and usage context */
 import { GearApi, GearKeyring, decodeAddress } from '@gear-js/api';
 import { readFileSync } from 'fs';
 import { resolve, dirname } from 'path';
