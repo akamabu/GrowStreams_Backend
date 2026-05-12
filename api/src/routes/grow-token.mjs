@@ -7,6 +7,16 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const router = Router();
 const C = 'growToken';
+function isValidBigInt(v) {
+  if (v == null || v === '') return false;
+  try {
+    BigInt(v);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 
 const FAUCET_AMOUNT = BigInt('1000000000000000'); // 1,000 GROW
 const RATE_LIMIT_MS = 5 * 60 * 1000; // 5 minutes between requests per address
@@ -153,6 +163,7 @@ router.post('/burn', async (req, res, next) => {
   try {
     const { amount, mode } = req.body;
     if (!amount) return res.status(400).json({ error: 'Missing: amount' });
+    if (!isValidBigInt(amount)) return res.status(400).json({ error: 'Invalid numeric value for amount' });
     if (mode === 'payload') {
       return res.json({ payload: encodePayload(C, 'Burn', BigInt(amount)) });
     }
