@@ -1,3 +1,4 @@
+<!-- Documents docs/NATIVE_VARA_E2E_UPDATES.md module purpose and usage context -->
 # Native VARA E2E Test Updates
 
 ## Summary
