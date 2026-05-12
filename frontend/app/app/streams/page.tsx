@@ -1,3 +1,4 @@
+/** List of active and proposed streams */
 'use client';
 
 import { useEffect, useState, useRef, FormEvent } from 'react';
