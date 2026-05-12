@@ -1,3 +1,4 @@
+/** Cyclic rotation of text phrases */
 "use client"
 
 import { useEffect, useState } from "react"
