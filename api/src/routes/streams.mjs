@@ -139,6 +139,7 @@ router.post('/:id/deposit', async (req, res, next) => {
     const id = BigInt(req.params.id);
     const { amount, mode } = req.body;
     if (!amount) return res.status(400).json({ error: 'Missing: amount' });
+    if (!isValidBigInt(amount)) return res.status(400).json({ error: 'Invalid numeric value for amount' });
     if (mode === 'payload') {
       return res.json({ payload: encodePayload(C, 'Deposit', id, BigInt(amount)) });
     }
