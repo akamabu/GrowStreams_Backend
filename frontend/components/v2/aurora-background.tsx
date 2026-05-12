@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/aurora-background.tsx module purpose and usage context */
 "use client"
 
 import { motion } from "framer-motion"
