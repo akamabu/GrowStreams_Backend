@@ -1,3 +1,4 @@
+/** Documents frontend/components/campaign/AnalysisProgress.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { Loader2, CheckCircle2, XCircle, Code2, GitBranch, Sparkles, TrendingUp } from 'lucide-react';
