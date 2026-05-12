@@ -1,3 +1,4 @@
+<!-- Documents docs/PLATFORM_DEMO_VIDEO_SCRIPT.md module purpose, public surface, and usage context -->
 # GrowStreams Platform Demo Video Script
 
 **Target Duration:** 5-6 minutes  
