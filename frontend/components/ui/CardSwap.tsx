@@ -1,3 +1,4 @@
+/** Documents frontend/components/ui/CardSwap.tsx module purpose and usage context */
 'use client';
 
 import React, {
