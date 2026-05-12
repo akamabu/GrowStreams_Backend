@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/flowing-particles.tsx module purpose and usage context */
 "use client"
 
 import { useEffect, useRef, useCallback } from "react"
