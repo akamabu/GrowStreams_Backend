@@ -34,7 +34,8 @@ export class GrowStreams {
         headers: { 'Content-Type': 'application/json', ...options?.headers },
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+      if (!res.ok) if (res.status === 408) throw new Error('Request Timeout: Server took too long to respond');
+      throw new Error(data.error || `HTTP ${res.status}`);
       return data as T;
     } finally {
       clearTimeout(id);
