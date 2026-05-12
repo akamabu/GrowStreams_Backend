@@ -1,4 +1,6 @@
-# GitHub Agent - Automated PR Scoring System
+# GitHub Agent
+
+Automated maintenance and documentation synchronization agent. - Automated PR Scoring System
 
 ## Overview
 
