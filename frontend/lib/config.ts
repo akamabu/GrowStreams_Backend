@@ -2,6 +2,7 @@
  * Application configuration for IPFS and media handling
  */
 
+/** Runtime app configuration */
 export const config = {
   // IPFS Configuration
   ipfs: {
