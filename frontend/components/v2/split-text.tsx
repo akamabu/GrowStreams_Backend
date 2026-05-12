@@ -1,3 +1,4 @@
+/** Text animation utility for character-based effects */
 "use client"
 
 import React from "react"
