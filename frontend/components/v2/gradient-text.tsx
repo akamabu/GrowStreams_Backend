@@ -1,3 +1,4 @@
+/** Utility for rendering text with CSS gradients */
 "use client"
 
 import { motion } from "framer-motion"
