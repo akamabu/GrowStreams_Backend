@@ -1,3 +1,4 @@
+/** Documents frontend/contexts/VaraContext.tsx module purpose, public surface, and usage context */
 'use client';
 
 import {
