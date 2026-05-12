@@ -1,3 +1,4 @@
+<!-- Documents frontend/CAMPAIGN_README.md module purpose and usage context -->
 # Web3 Contribution Challenge — Campaign System
 
 Part of the [GrowStreams](https://growstreams.app) platform. See the main [README.md](README.md) for the full project overview.
