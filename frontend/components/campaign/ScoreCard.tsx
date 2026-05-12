@@ -1,3 +1,4 @@
+/** Documents frontend/components/campaign/ScoreCard.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { TierBadge } from './TierBadge';
