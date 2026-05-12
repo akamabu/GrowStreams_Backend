@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/floating-network.tsx module purpose, public surface, and usage context */
 "use client"
 
 import React from "react"
