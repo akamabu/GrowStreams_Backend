@@ -1,3 +1,4 @@
+/** Retro-style dot matrix background pattern */
 "use client"
 
 import React, { useRef, useEffect } from "react"
