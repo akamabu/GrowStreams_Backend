@@ -1,3 +1,4 @@
+/** Documents frontend/lib/video-adapters.ts module purpose, public surface, and usage context */
 import { ProfileVideo } from '@/hooks/useProfileVideos'
 import { ExploreVideo } from '@/types/explore'
 
