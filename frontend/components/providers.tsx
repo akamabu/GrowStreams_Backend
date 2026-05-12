@@ -1,3 +1,4 @@
+/** Documents frontend/components/providers.tsx module purpose and usage context */
 'use client';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
