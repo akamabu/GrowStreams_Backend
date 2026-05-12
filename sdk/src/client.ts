@@ -59,6 +59,10 @@ export class GrowStreams {
 
   // ---- Health ----
 
+  getFaucetStatus(address: string) {
+    return this.get<any>(`/api/faucet/status?address=${address}`);
+  }
+
   health() {
     return this.get<HealthResponse>('/health');
   }
