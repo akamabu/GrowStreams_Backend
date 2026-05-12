@@ -1,3 +1,4 @@
+/** Comprehensive v2 site footer with links */
 "use client"
 
 import Link from "next/link"
