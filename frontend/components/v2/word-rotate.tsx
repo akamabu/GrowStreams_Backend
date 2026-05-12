@@ -1,3 +1,4 @@
+/** Vertical/Horizontal word rotation animation */
 "use client"
 
 import { useEffect, useState } from "react"
