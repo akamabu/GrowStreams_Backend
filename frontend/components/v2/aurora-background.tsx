@@ -1,3 +1,4 @@
+/** Animated aurora borealis style background */
 "use client"
 
 import { motion } from "framer-motion"
