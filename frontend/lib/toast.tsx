@@ -1,3 +1,4 @@
+/** Documents frontend/lib/toast.tsx module purpose, public surface, and usage context */
 import { toast } from 'sonner';
 import { 
   CheckCircle2, 
