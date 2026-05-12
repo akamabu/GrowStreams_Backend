@@ -3,6 +3,16 @@ import { query, command, encodePayload } from '../sails-client.mjs';
 
 const router = Router();
 const C = 'streamCore';
+function isValidBigInt(v) {
+  if (v == null || v === '') return false;
+  try {
+    BigInt(v);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 
 function toBigIntStr(v) {
   if (v == null) return '0';
@@ -89,7 +99,10 @@ router.post('/', async (req, res, next) => {
     if (!receiver || !token || !flowRate || !initialDeposit) {
       return res.status(400).json({ error: 'Missing: receiver, token, flowRate, initialDeposit' });
     }
-    if (mode === 'payload') {
+    if (!isValidBigInt(flowRate) || !isValidBigInt(initialDeposit)) {
+      return res.status(400).json({ error: 'Invalid numeric value for flowRate or initialDeposit' });
+    }
+      if (mode === 'payload') {
       const payload = encodePayload(C, 'CreateStream', receiver, token, BigInt(flowRate), BigInt(initialDeposit));
       return res.json({ payload });
     }
