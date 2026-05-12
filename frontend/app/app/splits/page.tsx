@@ -1,3 +1,4 @@
+/** Revenue split configuration and status */
 'use client';
 
 import ComingSoon from '@/components/coming-soon';
