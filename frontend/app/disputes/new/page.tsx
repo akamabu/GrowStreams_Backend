@@ -1,3 +1,4 @@
+/** Documents frontend/app/disputes/new/page.tsx module purpose and usage context */
 "use client"
 
 import type React from "react"
