@@ -5,7 +5,7 @@ This guide covers building, deploying, and wiring the modified TokenVault and St
 ## Prerequisites
 
 1. **Rust & Cargo** installed (for building contracts)
-2. **Node.js** v18+ (for deployment scripts)
+2. **Node.js** v20+ (for deployment scripts)
 3. **VARA testnet account** with funds
 4. **.env file** configured with `VARA_SEED` and `VARA_NODE`
 
