@@ -115,3 +115,7 @@ AllocateToStream, ReleaseFromStream, TransferToReceiver → StreamCore only
 3. **No formal verification:** Invariants tested but not formally proved
 4. **Timestamp granularity:** Block timestamps have ~second granularity; micro-second precision not possible
 5. **Token whitelist:** No token whitelist in MVP; any ActorId accepted as token (validate externally)
+
+
+## Reporting Vulnerabilities
+Please send security reports to security@growstreams.xyz.
