@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/code-typing.tsx module purpose and usage context */
 "use client"
 
 import { useEffect, useState, useRef } from "react"
