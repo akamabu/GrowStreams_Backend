@@ -1,3 +1,4 @@
+/** Documents api/src/services/user-service.mjs module purpose and usage context */
 import crypto from 'crypto';
 import { query, queryOne, queryAll } from './db.mjs';
 
