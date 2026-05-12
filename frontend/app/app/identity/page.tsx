@@ -1,3 +1,4 @@
+/** Documents frontend/app/app/identity/page.tsx module purpose, public surface, and usage context */
 'use client';
 
 import ComingSoon from '@/components/coming-soon';
