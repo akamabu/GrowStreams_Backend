@@ -1,3 +1,4 @@
+/** Grid background with fading animation nodes */
 "use client"
 
 import React, { useRef, useEffect } from "react"
