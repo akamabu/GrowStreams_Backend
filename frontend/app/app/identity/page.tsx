@@ -1,3 +1,4 @@
+/** Decentralized identity and profile management */
 'use client';
 
 import ComingSoon from '@/components/coming-soon';
