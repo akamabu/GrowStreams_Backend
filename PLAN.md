@@ -1,3 +1,4 @@
+<!-- Documents PLAN.md module purpose and usage context -->
 # GrowStreams V2 — Execution Plan & Gap Analysis
 
 > Last updated: 23 Feb 2026 | Owner: Satyam
