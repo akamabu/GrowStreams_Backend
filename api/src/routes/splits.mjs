@@ -3,6 +3,11 @@ import { query, command, encodePayload } from '../sails-client.mjs';
 
 const router = Router();
 const C = 'splitsRouter';
+function isValidBigInt(v) {
+  if (v == null || v === '') return false;
+  try { BigInt(v); return true; } catch { return false; }
+}
+
 
 router.get('/config', async (req, res, next) => {
   try {
