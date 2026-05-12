@@ -1,3 +1,4 @@
+/** Documents frontend/components/app-layout.tsx module purpose and usage context */
 'use client';
 
 import Link from 'next/link';
