@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/button.tsx module purpose and usage context */
 import { cn } from "@/lib/utils"
 import { type ButtonHTMLAttributes, forwardRef } from "react"
 
