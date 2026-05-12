@@ -1,3 +1,4 @@
+/** Documents api/src/routes/grow-token.mjs module purpose and usage context */
 import { Router } from 'express';
 import { query, command, encodePayload, getProgramIds, getKeyring } from '../sails-client.mjs';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
