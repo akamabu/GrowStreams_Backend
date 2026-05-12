@@ -1,3 +1,4 @@
+/** Documents frontend/app/app/layout.tsx module purpose and usage context */
 'use client';
 
 import { useAccount } from '@gear-js/react-hooks';
