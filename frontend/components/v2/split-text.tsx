@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/split-text.tsx module purpose and usage context */
 "use client"
 
 import React from "react"
