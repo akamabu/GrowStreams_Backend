@@ -1,3 +1,4 @@
+/** Documents api/src/index.mjs module purpose, public surface, and usage context */
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
