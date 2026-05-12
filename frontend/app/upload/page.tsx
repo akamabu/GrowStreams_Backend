@@ -1,3 +1,4 @@
+/** Documents frontend/app/upload/page.tsx module purpose and usage context */
 "use client";
 
 import React, { useState, useRef } from "react";
