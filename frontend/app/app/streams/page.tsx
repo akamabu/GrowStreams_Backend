@@ -1,3 +1,4 @@
+/** Documents frontend/app/app/streams/page.tsx module purpose, public surface, and usage context */
 'use client';
 
 import { useEffect, useState, useRef, FormEvent } from 'react';
