@@ -1,3 +1,8 @@
+## Table of Contents
+- [Features](#features)
+- [Architecture](#architecture)
+- [Getting Started](#getting-started)
+
 # 🌊 GrowStreams — Money Streaming Protocol on Vara
 
 > **Stream tokens by the second to any address on Vara Network.**
