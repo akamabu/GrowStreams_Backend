@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/profile-skeleton.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { motion } from "framer-motion"
