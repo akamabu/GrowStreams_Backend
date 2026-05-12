@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/navigation-v2.tsx module purpose and usage context */
 "use client"
 
 import { useState, useEffect } from "react"
