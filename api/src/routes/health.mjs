@@ -1,3 +1,4 @@
+/** Documents api/src/routes/health.mjs module purpose and usage context */
 import { Router } from 'express';
 import { getApi, getKeyring, getProgramIds } from '../sails-client.mjs';
 
