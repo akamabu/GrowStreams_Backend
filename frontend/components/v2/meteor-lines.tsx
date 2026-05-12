@@ -1,3 +1,4 @@
+/** Falling star/meteor background effect */
 "use client"
 
 import React from "react"
