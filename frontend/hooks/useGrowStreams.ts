@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useGrowStreams.ts module purpose and usage context */
 'use client';
 
 import { useState, useCallback } from 'react';
