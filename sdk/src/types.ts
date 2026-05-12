@@ -102,3 +102,5 @@ export interface GrowStreamsConfig {
   baseUrl: string;
   timeout?: number;
 }
+
+export type LeaderboardResponse = { participants: any[]; total: number; page: number; };
