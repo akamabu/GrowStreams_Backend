@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/word-rotate.tsx module purpose and usage context */
 "use client"
 
 import { useEffect, useState } from "react"
