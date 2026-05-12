@@ -1,3 +1,4 @@
+/** Documents frontend/lib/ipfs.ts module purpose, public surface, and usage context */
 // Real Pinata IPFS service implementation
 
 export interface IPFSUploadResult {
