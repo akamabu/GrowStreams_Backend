@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/shiny-text.tsx module purpose and usage context */
 "use client"
 
 import React from "react"
