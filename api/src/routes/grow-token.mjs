@@ -104,7 +104,12 @@ router.get('/total-supply', async (req, res, next) => {
 router.post('/transfer', async (req, res, next) => {
   try {
     const { to, amount, mode } = req.body;
-    if (!to || !amount) return res.status(400).json({ error: 'Missing: to, amount' });
+    if (!to || !amount) {
+      return res.status(400).json({ error: 'Missing: to, amount' });
+    }
+    if (!isValidBigInt(amount)) {
+      return res.status(400).json({ error: 'Invalid numeric value for amount' });
+    } return res.status(400).json({ error: 'Missing: to, amount' });
     if (mode === 'payload') {
       return res.json({ payload: encodePayload(C, 'Transfer', to, BigInt(amount)) });
     }
