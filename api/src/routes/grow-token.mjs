@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import rateLimit from 'express-rate-limit';
 import { query, command, encodePayload, getProgramIds, getKeyring } from '../sails-client.mjs';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';
@@ -25,6 +26,7 @@ function loadFaucetState() {
       const data = JSON.parse(readFileSync(STATE_FILE, 'utf-8'));
       faucetState.mode = data.mode || 'public';
       faucetState.whitelist = new Set(data.whitelist || []);
+      faucetState.lastMint = new Map(Object.entries(data.lastMint || {}));
     }
   } catch { /* start fresh */ }
 }
@@ -34,6 +36,7 @@ function saveFaucetState() {
     writeFileSync(STATE_FILE, JSON.stringify({
       mode: faucetState.mode,
       whitelist: [...faucetState.whitelist],
+      lastMint: Object.fromEntries(faucetState.lastMint),
     }, null, 2));
   } catch (err) {
     console.warn('[faucet] Failed to persist state:', err.message);
@@ -41,6 +44,14 @@ function saveFaucetState() {
 }
 
 loadFaucetState();
+
+const ipRateLimit = rateLimit({
+  windowMs: 60 * 60 * 1000, // 1 hour
+  limit: 3,                 // 3 requests per hour
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many faucet requests from this IP. Please try again in an hour.' },
+});
 
 function getAdminAddress() {
   const kr = getKeyring();
@@ -163,7 +174,7 @@ router.post('/burn', async (req, res, next) => {
 
 // --- Faucet: server-side minting (uses admin keyring) ---
 
-router.post('/faucet', async (req, res, next) => {
+router.post('/faucet', ipRateLimit, async (req, res, next) => {
   try {
     const { to } = req.body;
     if (!to) return res.status(400).json({ error: 'Missing: to (recipient address)' });
@@ -185,6 +196,7 @@ router.post('/faucet', async (req, res, next) => {
     // Mint using server-side admin keyring
     const { result, blockHash } = await command(C, 'Mint', to, FAUCET_AMOUNT);
     faucetState.lastMint.set(addrLower, Date.now());
+    saveFaucetState();
 
     res.json({
       success: true,
