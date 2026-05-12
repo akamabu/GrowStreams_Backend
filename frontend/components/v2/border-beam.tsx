@@ -1,3 +1,4 @@
+/** Animated border beam effect */
 "use client"
 
 import React from "react"
