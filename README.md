@@ -1,3 +1,4 @@
+<!-- Documents README.md module purpose, public surface, and usage context -->
 # 🌊 GrowStreams — Money Streaming Protocol on Vara
 
 > **Stream tokens by the second to any address on Vara Network.**
