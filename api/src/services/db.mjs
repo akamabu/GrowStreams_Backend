@@ -179,3 +179,11 @@ export async function migrate() {
 
   console.log('[db] Migrations complete');
 }
+
+export async function closePool() {
+  if (pool) {
+    await pool.end();
+    pool = null;
+    console.log('[db] Pool closed');
+  }
+}
