@@ -1,3 +1,4 @@
+/** Documents scripts/deploy-js/test-railway-flow.mjs module purpose and usage context */
 #!/usr/bin/env node
 /**
  * Test the full GROW token flow via Railway-deployed API.
