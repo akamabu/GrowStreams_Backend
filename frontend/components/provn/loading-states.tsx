@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/loading-states.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { motion } from "framer-motion"
