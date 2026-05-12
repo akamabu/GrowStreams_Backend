@@ -1,3 +1,4 @@
+/** Documents api/src/routes/leaderboard.mjs module purpose and usage context */
 import { Router } from 'express';
 import { queryOne } from '../services/db.mjs';
 import { getLeaderboard, getParticipantStats } from '../services/xp-service.mjs';
