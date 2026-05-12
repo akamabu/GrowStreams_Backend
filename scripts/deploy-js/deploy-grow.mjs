@@ -1,3 +1,4 @@
+/** Documents scripts/deploy-js/deploy-grow.mjs module purpose, public surface, and usage context */
 import { GearApi, GearKeyring } from '@gear-js/api';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';
