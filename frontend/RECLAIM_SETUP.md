@@ -1,3 +1,4 @@
+<!-- Documents frontend/RECLAIM_SETUP.md module purpose and usage context -->
 # Reclaim Protocol Integration Setup Guide
 
 ## Overview
