@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useVideoMinting.ts module purpose, public surface, and usage context */
 import { useState, useEffect } from 'react'
 import { useAuth, useAuthState } from '@campnetwork/origin/react'
 import { type Address } from 'viem'
