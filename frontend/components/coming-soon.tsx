@@ -1,3 +1,4 @@
+/** Documents frontend/components/coming-soon.tsx module purpose and usage context */
 'use client';
 
 import { motion } from 'framer-motion';
