@@ -59,6 +59,10 @@ export class GrowStreams {
 
   // ---- Health ----
 
+  getLeaderboard(period: string = 'all') {
+    return this.get<any>(`/api/leaderboard?period=${period}`);
+  }
+
   health() {
     return this.get<HealthResponse>('/health');
   }
