@@ -1,3 +1,4 @@
+/** Documents frontend/app/page.tsx module purpose, public surface, and usage context */
 "use client"
 
 import React, { useRef, useState } from "react"
