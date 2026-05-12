@@ -1,3 +1,4 @@
+// Core Types
 export interface HealthResponse {
   status: 'healthy' | 'degraded';
   network: string | null;
