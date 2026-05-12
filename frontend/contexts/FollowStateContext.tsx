@@ -1,3 +1,4 @@
+/** Documents frontend/contexts/FollowStateContext.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { createContext, useContext, useState, useCallback, ReactNode } from 'react'
