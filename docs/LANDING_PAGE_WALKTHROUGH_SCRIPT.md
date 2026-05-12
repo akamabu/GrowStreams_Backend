@@ -1,3 +1,4 @@
+<!-- Documents docs/LANDING_PAGE_WALKTHROUGH_SCRIPT.md module purpose, public surface, and usage context -->
 # GrowStreams Landing Page Demonstration (Video Script)
 
 **Target Duration:** 3:00 minutes  
