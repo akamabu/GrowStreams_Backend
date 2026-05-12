@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/meteor-lines.tsx module purpose, public surface, and usage context */
 "use client"
 
 import React from "react"
