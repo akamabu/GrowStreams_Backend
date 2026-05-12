@@ -1,3 +1,4 @@
+/** Modern navigation header for v2 layout */
 "use client"
 
 import { useState, useEffect } from "react"
