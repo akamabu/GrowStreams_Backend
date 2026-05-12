@@ -1,3 +1,4 @@
+/** Documents api/src/cron/leaderboard-snapshot.mjs module purpose and usage context */
 import { queryAll, query } from '../services/db.mjs';
 
 /**
