@@ -1,3 +1,4 @@
+/** Documents api/src/cron/daily-xp.mjs module purpose and usage context */
 import { queryAll, queryOne } from '../services/db.mjs';
 import { awardXP, getDailyRate } from '../services/xp-service.mjs';
 
