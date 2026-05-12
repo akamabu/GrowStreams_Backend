@@ -1,3 +1,4 @@
+/** Documents frontend/app/upload/derivative/page.tsx module purpose and usage context */
 "use client"
 
 import type React from "react"
