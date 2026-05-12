@@ -1,3 +1,4 @@
+/** Text with animated gradient shine effect */
 "use client"
 
 import React from "react"
