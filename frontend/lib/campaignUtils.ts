@@ -1,3 +1,4 @@
+/** Campaign utility helpers */
 /**
  * Campaign Utility Functions
  * Helpers for the Web3 Contribution Challenge
