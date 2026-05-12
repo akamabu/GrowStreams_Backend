@@ -1,3 +1,4 @@
+/** Documents frontend/components/theme-provider.tsx module purpose and usage context */
 'use client'
 
 import * as React from 'react'
