@@ -1,3 +1,4 @@
+/** Documents api/test-api.mjs module purpose and usage context */
 const BASE = process.env.API_URL || 'http://localhost:3001';
 const DELAY = 2000;
 let passed = 0, failed = 0;
