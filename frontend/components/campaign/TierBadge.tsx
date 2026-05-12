@@ -1,3 +1,4 @@
+/** Renders the participant tier based on XP/Score */
 'use client';
 
 import { Trophy, Award, Star, Zap, Sparkles } from 'lucide-react';
