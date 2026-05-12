@@ -1,3 +1,4 @@
+/** Documents api/src/services/x-agent.mjs module purpose, public surface, and usage context */
 import { TwitterApi } from 'twitter-api-v2';
 import { scoreContent } from './llm-scorer.mjs';
 import { awardXP, getInitialXP } from './xp-service.mjs';
