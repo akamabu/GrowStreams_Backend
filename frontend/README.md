@@ -1,3 +1,4 @@
+<!-- Documents frontend/README.md module purpose, public surface, and usage context -->
 # GrowStreams
 
 **Vara-native Money Streaming Protocol — per-second token payments for payroll, subscriptions, bounties, grants, and revenue sharing.**
