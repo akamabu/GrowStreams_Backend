@@ -1,3 +1,4 @@
+/** Displays the calculated score and metrics for a participant */
 'use client';
 
 import { TierBadge } from './TierBadge';
