@@ -1,3 +1,4 @@
+<!-- Documents CAMPAIGN_ENDED_UPDATE.md module purpose and usage context -->
 # 🎉 Campaign Ended - Frontend Updates
 
 ## Summary
