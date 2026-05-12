@@ -1,3 +1,4 @@
+/** Documents frontend/components/campaign/Countdown.tsx module purpose and usage context */
 'use client';
 
 import { useState, useEffect } from 'react';
