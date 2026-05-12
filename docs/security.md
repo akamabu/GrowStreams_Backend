@@ -1,3 +1,4 @@
+<!-- Documents docs/security.md module purpose and usage context -->
 # GrowStreams V2 — Security Model
 
 ## Threat Model
