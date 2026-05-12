@@ -1,3 +1,4 @@
+/** State management for user social connections */
 "use client"
 
 import { createContext, useContext, useState, useCallback, ReactNode } from 'react'
