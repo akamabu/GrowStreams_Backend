@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useFollow.ts module purpose and usage context */
 import { useState, useEffect, useCallback } from 'react'
 import { useAuth } from '@campnetwork/origin/react'
 import { toast } from 'sonner'
