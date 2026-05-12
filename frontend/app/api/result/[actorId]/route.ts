@@ -1,3 +1,4 @@
+/** Documents frontend/app/api/result/[actorId]/route.ts module purpose and usage context */
 import { NextRequest, NextResponse } from 'next/server';
 
 // Mock database - in production, this would query Supabase/PostgreSQL
