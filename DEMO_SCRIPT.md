@@ -1,3 +1,4 @@
+<!-- Documents DEMO_SCRIPT.md module purpose, public surface, and usage context -->
 # GrowStreams Foundation Demo Script
 **Complete Walkthrough: GROW Token, Vault, and Streaming**
 
