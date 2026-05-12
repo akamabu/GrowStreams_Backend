@@ -1,3 +1,6 @@
+/**
+ * Auto-generated documentation for the hook
+ */
 'use client';
 
 import { useProgram, useSendProgramTransaction } from '@gear-js/react-hooks';
