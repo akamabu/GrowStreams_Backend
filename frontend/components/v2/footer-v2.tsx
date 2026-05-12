@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/footer-v2.tsx module purpose and usage context */
 "use client"
 
 import Link from "next/link"
