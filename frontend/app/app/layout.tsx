@@ -1,3 +1,4 @@
+/** Main application wrapper with sidebar/nav */
 'use client';
 
 import { useAccount } from '@gear-js/react-hooks';
