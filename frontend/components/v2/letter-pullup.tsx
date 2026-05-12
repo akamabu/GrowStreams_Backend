@@ -1,3 +1,4 @@
+/** Sequential entrance animation for text letters */
 "use client"
 
 import React from "react"
