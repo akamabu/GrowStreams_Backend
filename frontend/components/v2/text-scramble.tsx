@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/text-scramble.tsx module purpose and usage context */
 "use client"
 
 import React, { useEffect, useState, useRef } from "react"
