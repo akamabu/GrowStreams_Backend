@@ -169,3 +169,9 @@ const amount = await streamCore.Withdraw(streamId);
 // 5. Sender stops stream
 await streamCore.StopStream(streamId);
 ```
+
+
+### Example: Query Vault Balance
+```bash
+curl -X GET https://api.growstreams.xyz/api/vault/1/balance
+```
