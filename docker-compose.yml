@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: growstreams
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: growstreams
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://growstreams:password@db:5432/growstreams
+      PORT: 3000
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
