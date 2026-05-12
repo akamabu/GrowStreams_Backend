@@ -1,3 +1,4 @@
+/** Context for Vara network wallet connection */
 'use client';
 
 import {
