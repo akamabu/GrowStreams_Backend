@@ -1,3 +1,4 @@
+/** Documents scripts/deploy-js/wire-contracts.mjs module purpose, public surface, and usage context */
 import { GearApi, GearKeyring } from '@gear-js/api';
 import { readFileSync, existsSync } from 'fs';
 import { resolve, dirname } from 'path';
