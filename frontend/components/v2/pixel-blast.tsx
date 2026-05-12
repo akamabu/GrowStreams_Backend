@@ -1,3 +1,4 @@
+/** Interactive pixel explosion particle effect */
 "use client"
 
 import React, { useRef, useEffect, useCallback } from "react"
