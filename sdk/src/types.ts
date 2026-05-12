@@ -102,3 +102,6 @@ export interface GrowStreamsConfig {
   baseUrl: string;
   timeout?: number;
 }
+
+
+export type Network = 'mainnet' | 'testnet';
