@@ -1,3 +1,4 @@
+/** Entrance animation for individual letters */
 "use client"
 
 import React from "react"
