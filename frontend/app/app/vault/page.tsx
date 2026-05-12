@@ -1,3 +1,4 @@
+/** Asset vault and withdrawal interface */
 'use client';
 
 import { useEffect, useState, useCallback, FormEvent } from 'react';
