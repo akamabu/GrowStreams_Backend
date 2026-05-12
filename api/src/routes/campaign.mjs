@@ -1,3 +1,4 @@
+/** Documents api/src/routes/campaign.mjs module purpose and usage context */
 import { Router } from 'express';
 import { queryOne } from '../services/db.mjs';
 import {
