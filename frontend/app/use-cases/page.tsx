@@ -1,3 +1,4 @@
+/** Documents frontend/app/use-cases/page.tsx module purpose and usage context */
 "use client"
 
 import React from "react"
