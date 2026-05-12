@@ -1,3 +1,4 @@
+/** Hover focus effect component with blurred background */
 "use client"
 
 import { useEffect, useRef, useState } from 'react';
