@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useProfileVideos.ts module purpose, public surface, and usage context */
 import { useState, useEffect, useCallback } from 'react'
 
 export interface ProfileVideo {
