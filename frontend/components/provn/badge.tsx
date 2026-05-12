@@ -1,3 +1,4 @@
+/** ProVN specific badge component */
 import { cn } from "@/lib/utils"
 import { type HTMLAttributes, forwardRef } from "react"
 
