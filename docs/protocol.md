@@ -1,3 +1,5 @@
+## Stream Lifecycle
+Proposed -> Active -> Completed
 # GrowStreams V2 — Protocol Specification
 
 ## Overview
