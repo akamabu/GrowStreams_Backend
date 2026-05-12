@@ -66,6 +66,7 @@ async function awardReferralBonus(wallet, xpDelta, contributionId) {
     [wallet]
   );
   if (!user || !user.referred_by) return null;
+  if (user.referred_by === wallet) return null; // self-referral protection
 
   // Find the referrer's participant wallet
   const referrer = await queryOne(
