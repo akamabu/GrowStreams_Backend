@@ -1,3 +1,4 @@
+/** Documents api/src/services/github-agent.mjs module purpose, public surface, and usage context */
 import { scorePR } from './llm-scorer.mjs';
 import { awardXP, getInitialXP } from './xp-service.mjs';
 import { queryOne, queryAll, query } from './db.mjs';
