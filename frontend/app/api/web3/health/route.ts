@@ -1,3 +1,4 @@
+/** Documents frontend/app/api/web3/health/route.ts module purpose, public surface, and usage context */
 import { NextResponse } from 'next/server';
 
 export async function GET() {
