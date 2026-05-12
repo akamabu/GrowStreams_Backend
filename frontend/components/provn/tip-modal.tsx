@@ -1,3 +1,4 @@
+/** Modal for sending Vara tips */
 "use client";
 
 import React, { useState } from "react";
