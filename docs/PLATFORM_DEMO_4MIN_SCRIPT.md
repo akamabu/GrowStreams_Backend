@@ -1,3 +1,4 @@
+<!-- Documents docs/PLATFORM_DEMO_4MIN_SCRIPT.md module purpose and usage context -->
 # GrowStreams Platform Demo (4-Minute Script)
 
 **Target Duration:** 4:00 minutes  
