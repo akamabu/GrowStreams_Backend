@@ -1,3 +1,4 @@
+/** Available ecosystem bounties for developers */
 'use client';
 
 import ComingSoon from '@/components/coming-soon';
