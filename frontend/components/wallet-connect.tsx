@@ -1,3 +1,4 @@
+/** Documents frontend/components/wallet-connect.tsx module purpose and usage context */
 'use client';
 
 import { Wallet } from '@gear-js/wallet-connect';
