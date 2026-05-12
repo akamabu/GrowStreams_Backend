@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useProfile.ts module purpose and usage context */
 import { useState, useEffect, useCallback } from 'react'
 import { Profile } from '@/lib/supabase'
 
