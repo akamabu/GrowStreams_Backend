@@ -1,3 +1,4 @@
+/** Documents api/src/services/xp-service.mjs module purpose and usage context */
 import { query, queryOne, queryAll } from './db.mjs';
 
 const ONE_TIME_REASONS = ['INITIAL_AWARD', 'MERGE_BONUS', 'VIRAL_BONUS', 'RESHARE_BONUS'];
