@@ -1,3 +1,4 @@
+/** Growth metrics and campaign participation */
 'use client';
 
 import { useEffect, useState, useCallback } from 'react';
