@@ -162,3 +162,7 @@ try {
 - [Protocol Spec](./protocol.md) — understand how streams work under the hood
 - [Contract API](./contracts-api.md) — direct contract interaction reference
 - [Security Model](./security.md) — buffer/solvency model explained
+
+
+## Troubleshooting
+If the SDK hangs, check your network connection or the 10s timeout.
