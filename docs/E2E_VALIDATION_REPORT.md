@@ -1,3 +1,4 @@
+<!-- Documents docs/E2E_VALIDATION_REPORT.md module purpose and usage context -->
 # GrowStreams E2E Validation Report
 
 **Date**: 2026-03-17  
