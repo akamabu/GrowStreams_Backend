@@ -1,3 +1,4 @@
+/** Documents sdk/src/client.ts module purpose and usage context */
 import type {
   GrowStreamsConfig,
   HealthResponse,
