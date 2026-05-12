@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useReclaimContract.ts module purpose, public surface, and usage context */
 'use client';
 
 import { useProgram, useSendProgramTransaction } from '@gear-js/react-hooks';
