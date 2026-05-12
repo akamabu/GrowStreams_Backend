@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/gradient-blinds.tsx module purpose, public surface, and usage context */
 "use client"
 
 import { useEffect, useRef } from 'react';
