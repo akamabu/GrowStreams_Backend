@@ -1,3 +1,4 @@
+/** Toast notification helpers */
 import { toast } from 'sonner';
 import { 
   CheckCircle2, 
