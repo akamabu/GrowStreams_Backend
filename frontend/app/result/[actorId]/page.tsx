@@ -1,3 +1,4 @@
+/** Documents frontend/app/result/[actorId]/page.tsx module purpose and usage context */
 'use client';
 
 import { useEffect, useState } from 'react';
