@@ -1,3 +1,4 @@
+/** Documents frontend/components/campaign/TierBadge.tsx module purpose and usage context */
 'use client';
 
 import { Trophy, Award, Star, Zap, Sparkles } from 'lucide-react';
