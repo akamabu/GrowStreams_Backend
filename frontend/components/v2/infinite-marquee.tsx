@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/infinite-marquee.tsx module purpose and usage context */
 "use client"
 
 import React from "react"
