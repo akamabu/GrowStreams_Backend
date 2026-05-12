@@ -1,3 +1,4 @@
+/** Documents scripts/deploy-js/set-token-vault.mjs module purpose and usage context */
 import { GearApi, GearKeyring } from '@gear-js/api';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
