@@ -1,3 +1,4 @@
+/** Animated nodes and edges network background */
 "use client"
 
 import React from "react"
