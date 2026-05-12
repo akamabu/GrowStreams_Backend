@@ -1,3 +1,4 @@
+<!-- Documents VALIDATION_TEST.md module purpose, public surface, and usage context -->
 # E2E Validation Test
 
 This PR tests the GitHub webhook → AI scoring → XP award pipeline.
