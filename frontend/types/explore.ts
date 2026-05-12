@@ -1,3 +1,4 @@
+/** Documents frontend/types/explore.ts module purpose, public surface, and usage context */
 export interface ExploreVideo {
   tokenId: string;
   title: string;
