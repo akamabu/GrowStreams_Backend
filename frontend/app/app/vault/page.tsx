@@ -1,3 +1,4 @@
+/** Documents frontend/app/app/vault/page.tsx module purpose and usage context */
 'use client';
 
 import { useEffect, useState, useCallback, FormEvent } from 'react';
