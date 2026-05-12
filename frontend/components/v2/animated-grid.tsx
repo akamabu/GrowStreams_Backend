@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/animated-grid.tsx module purpose and usage context */
 "use client"
 
 import React, { useRef, useEffect } from "react"
