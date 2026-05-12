@@ -1,3 +1,4 @@
+/** Documents frontend/lib/origin.ts module purpose and usage context */
 // GrowStreams Camp Network Integration
 
 // Helper function to get Camp Network SDK instance
