@@ -1,3 +1,4 @@
+/** Documents frontend/components/v2/tilt-card.tsx module purpose and usage context */
 "use client"
 
 import React, { useRef, useState } from "react"
