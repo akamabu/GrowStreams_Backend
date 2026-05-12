@@ -1,11 +1,13 @@
 {
   "name": "@growstreams/sdk",
   "version": "1.0.0",
-  "description": "TypeScript SDK for GrowStreams V2 — Money streaming infrastructure on Vara Network",
+  "description": "TypeScript SDK for GrowStreams V2 \u2014 Money streaming infrastructure on Vara Network",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
@@ -13,6 +15,16 @@
   "devDependencies": {
     "typescript": "^5.7.0"
   },
-  "keywords": ["vara", "gear", "streaming", "payments", "defi", "polkadot"],
-  "license": "MIT"
+  "keywords": [
+    "vara",
+    "gear",
+    "streaming",
+    "payments",
+    "defi",
+    "polkadot"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
