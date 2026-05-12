@@ -1,3 +1,4 @@
+<!-- Documents docs/contracts-api.md module purpose and usage context -->
 # GrowStreams V2 — Smart Contract API Reference
 
 ## Contract Addresses
