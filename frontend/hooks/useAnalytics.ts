@@ -1,3 +1,4 @@
+/** Documents frontend/hooks/useAnalytics.ts module purpose, public surface, and usage context */
 import { useState, useEffect, useCallback } from 'react'
 
 interface AnalyticsData {
