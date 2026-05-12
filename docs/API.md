@@ -1,3 +1,4 @@
+<!-- Documents docs/API.md module purpose and usage context -->
 # GrowStreams REST API Documentation
 
 > **Base URL:** `https://growstreams-core-production.up.railway.app`
