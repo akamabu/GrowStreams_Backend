@@ -1,3 +1,4 @@
+<!-- Documents docs/LANDING_PAGE_DEMO_SCRIPT.md module purpose and usage context -->
 # GrowStreams Landing Page Walkthrough (Demo Script)
 
 **Target Duration:** 2:30 minutes  
