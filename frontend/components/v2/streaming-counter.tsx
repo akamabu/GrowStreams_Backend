@@ -1,3 +1,4 @@
+/** Smoothly animated numerical counter for stream values */
 "use client"
 
 import { useEffect, useRef, useState } from "react"
