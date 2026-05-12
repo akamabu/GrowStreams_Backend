@@ -1,3 +1,4 @@
+/** Documents frontend/components/provn/badge.tsx module purpose, public surface, and usage context */
 import { cn } from "@/lib/utils"
 import { type HTMLAttributes, forwardRef } from "react"
 
