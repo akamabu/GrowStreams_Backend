@@ -1,3 +1,4 @@
+/** Documents api/src/cron/x-reevaluate.mjs module purpose and usage context */
 import { queryAll } from '../services/db.mjs';
 import { reevaluateTweet } from '../services/x-agent.mjs';
 
