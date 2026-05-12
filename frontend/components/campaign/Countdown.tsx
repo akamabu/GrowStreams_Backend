@@ -1,3 +1,4 @@
+/** Generic timer component for campaign expiration */
 'use client';
 
 import { useState, useEffect } from 'react';
