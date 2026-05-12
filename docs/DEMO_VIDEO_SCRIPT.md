@@ -1,3 +1,4 @@
+<!-- Documents docs/DEMO_VIDEO_SCRIPT.md module purpose and usage context -->
 # GrowStreams Demo Video Script (7 Minutes)
 
 **Target Duration:** 7:00 minutes  
