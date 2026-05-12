@@ -1,3 +1,4 @@
+/** Permission management for stream actors */
 'use client';
 
 import ComingSoon from '@/components/coming-soon';
