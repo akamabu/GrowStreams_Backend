@@ -1,3 +1,4 @@
+/** Seamless horizontal looping text/logo marquee */
 "use client"
 
 import React from "react"
